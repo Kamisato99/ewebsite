@@ -1,0 +1,345 @@
+[debug] [2022-05-17T10:17:00.324Z] ----------------------------------------------------------------------
+[debug] [2022-05-17T10:17:00.327Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aryan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-05-17T10:17:00.327Z] CLI Version:   10.9.2
+[debug] [2022-05-17T10:17:00.327Z] Platform:      win32
+[debug] [2022-05-17T10:17:00.327Z] Node Version:  v16.14.0
+[debug] [2022-05-17T10:17:00.328Z] Time:          Tue May 17 2022 15:47:00 GMT+0530 (India Standard Time)
+[debug] [2022-05-17T10:17:00.328Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-17T10:17:00.407Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-17T10:17:00.408Z] > authorizing via signed-in user (tamangaryan879@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-05-17T10:17:00.453Z] [hub] writing locator at C:\Users\Aryan\AppData\Local\Temp\hub-ecommerce-page-3747e.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-17T10:17:00.472Z] defaultcredentials: writing to file C:\Users\Aryan\AppData\Roaming\firebase\tamangaryan879_gmail_com_application_default_credentials.json
+[debug] [2022-05-17T10:17:00.474Z] Setting GAC to C:\Users\Aryan\AppData\Roaming\firebase\tamangaryan879_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Aryan\\AppData\\Roaming\\firebase\\tamangaryan879_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-17T10:17:00.477Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/adminSdkConfig [none]
+[debug] [2022-05-17T10:17:01.390Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/adminSdkConfig 200
+[debug] [2022-05-17T10:17:01.391Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/adminSdkConfig {"projectId":"ecommerce-page-3747e","storageBucket":"ecommerce-page-3747e.appspot.com","locationId":"asia-northeast3"}
+[debug] [2022-05-17T10:17:01.422Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-page-3747e/sites 
+[debug] [2022-05-17T10:17:03.837Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-page-3747e/sites 200
+[debug] [2022-05-17T10:17:03.838Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-page-3747e/sites {"sites":[{"name":"projects/ecommerce-page-3747e/sites/ecommerce-page-3747e","defaultUrl":"https://ecommerce-page-3747e.web.app","appId":"1:213318314347:web:05f883fa0b56835431842e","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-17T10:17:03.839Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/webApps/1:213318314347:web:05f883fa0b56835431842e/config [none]
+[debug] [2022-05-17T10:17:05.471Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/webApps/1:213318314347:web:05f883fa0b56835431842e/config 200
+[debug] [2022-05-17T10:17:05.472Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/webApps/1:213318314347:web:05f883fa0b56835431842e/config {"projectId":"ecommerce-page-3747e","appId":"1:213318314347:web:05f883fa0b56835431842e","storageBucket":"ecommerce-page-3747e.appspot.com","locationId":"asia-northeast3","apiKey":"AIzaSyB6RB2Wj_kyRT-NLftUz9DbakkILNN2PVU","authDomain":"ecommerce-page-3747e.firebaseapp.com","messagingSenderId":"213318314347","measurementId":"G-Q70PDMLV7B"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-05-17T10:17:05.555Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-17T10:17:05.555Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-17T10:17:05.556Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Aryan\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Aryan\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-17T10:17:05.753Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Collage files\Mini project\ecommerce-page\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Collage files\\Mini project\\ecommerce-page\\functions\" for Cloud Functions..."}}
+[debug] [2022-05-17T10:17:05.860Z] Validating nodejs source
+[debug] [2022-05-17T10:17:08.877Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-17T10:17:08.877Z] Building nodejs source
+[debug] [2022-05-17T10:17:08.877Z] Analyzing nodejs backend spec
+[debug] [2022-05-17T10:17:08.880Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-05-17T10:17:09.180Z] Serving at port 9005
+
+[debug] [2022-05-17T10:17:09.320Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-05-17T10:17:09.329Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/ecommerce-page-3747e/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/ecommerce-page-3747e/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-17T10:18:39.271Z] Received signal SIGHUP 1
+[debug] [2022-05-19T07:57:10.563Z] ----------------------------------------------------------------------
+[debug] [2022-05-19T07:57:10.567Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aryan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-05-19T07:57:10.567Z] CLI Version:   10.9.2
+[debug] [2022-05-19T07:57:10.567Z] Platform:      win32
+[debug] [2022-05-19T07:57:10.567Z] Node Version:  v16.14.0
+[debug] [2022-05-19T07:57:10.568Z] Time:          Thu May 19 2022 13:27:10 GMT+0530 (India Standard Time)
+[debug] [2022-05-19T07:57:10.569Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-19T07:57:10.572Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-05-19T07:57:10.657Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-19T07:57:10.657Z] > authorizing via signed-in user (tamangaryan879@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project ecommerce-page-3747e. This may result in unexpected behavior. 
+[debug] [2022-05-19T07:57:10.687Z] [hub] writing locator at C:\Users\Aryan\AppData\Local\Temp\hub-ecommerce-page-3747e.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-19T07:57:11.093Z] defaultcredentials: writing to file C:\Users\Aryan\AppData\Roaming\firebase\tamangaryan879_gmail_com_application_default_credentials.json
+[debug] [2022-05-19T07:57:11.097Z] Setting GAC to C:\Users\Aryan\AppData\Roaming\firebase\tamangaryan879_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Aryan\\AppData\\Roaming\\firebase\\tamangaryan879_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-19T07:57:11.100Z] > refreshing access token with scopes: []
+[debug] [2022-05-19T07:57:11.103Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-19T07:57:12.508Z] <<< HTTP RESPONSE 200 {"date":"Thu, 19 May 2022 07:57:16 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-19T07:57:12.516Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/adminSdkConfig [none]
+[debug] [2022-05-19T07:57:13.106Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-05-19T07:57:13.107Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-05-19T07:57:13.560Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/adminSdkConfig 200
+[debug] [2022-05-19T07:57:13.560Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/adminSdkConfig {"projectId":"ecommerce-page-3747e","storageBucket":"ecommerce-page-3747e.appspot.com","locationId":"asia-northeast3"}
+[debug] [2022-05-19T07:57:13.591Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-page-3747e/sites 
+[debug] [2022-05-19T07:57:17.372Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-page-3747e/sites 200
+[debug] [2022-05-19T07:57:17.373Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommerce-page-3747e/sites {"sites":[{"name":"projects/ecommerce-page-3747e/sites/ecommerce-page-3747e","defaultUrl":"https://ecommerce-page-3747e.web.app","appId":"1:213318314347:web:05f883fa0b56835431842e","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-19T07:57:17.373Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/webApps/1:213318314347:web:05f883fa0b56835431842e/config [none]
+[debug] [2022-05-19T07:57:19.196Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/webApps/1:213318314347:web:05f883fa0b56835431842e/config 200
+[debug] [2022-05-19T07:57:19.196Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-page-3747e/webApps/1:213318314347:web:05f883fa0b56835431842e/config {"projectId":"ecommerce-page-3747e","appId":"1:213318314347:web:05f883fa0b56835431842e","storageBucket":"ecommerce-page-3747e.appspot.com","locationId":"asia-northeast3","apiKey":"AIzaSyB6RB2Wj_kyRT-NLftUz9DbakkILNN2PVU","authDomain":"ecommerce-page-3747e.firebaseapp.com","messagingSenderId":"213318314347","measurementId":"G-Q70PDMLV7B"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-05-19T07:57:19.240Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-19T07:57:19.241Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-19T07:57:19.241Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Aryan\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Aryan\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-19T07:57:19.425Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Collage files\Mini project\ecommerce-page\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Collage files\\Mini project\\ecommerce-page\\functions\" for Cloud Functions..."}}
+[debug] [2022-05-19T07:57:19.515Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2022-05-19T07:57:44.001Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-19T07:57:44.002Z] Building nodejs source
+[debug] [2022-05-19T07:57:44.002Z] Analyzing nodejs backend spec
+[debug] [2022-05-19T07:57:44.003Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-05-19T07:57:44.470Z] Serving at port 9005
+
+[debug] [2022-05-19T07:57:44.713Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-05-19T07:57:44.724Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/ecommerce-page-3747e/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/ecommerce-page-3747e/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-19T08:02:40.957Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-19T08:02:40.957Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-19T08:02:40.958Z] Accepted request POST /ecommerce-page-3747e/us-central1/api/payments/create?total=150000 --> us-central1-api
+[debug] [2022-05-19T08:02:40.973Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-19T08:02:40.974Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-19T08:02:40.974Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-19T08:02:40.975Z] [worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: Assigning socketPath: \\?\pipe\C:\Collage files\Mini project\ecommerce-page\functions\17704 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: Assigning socketPath: \\\\?\\pipe\\C:\\Collage files\\Mini project\\ecommerce-page\\functions\\17704"}}
+[debug] [2022-05-19T08:02:40.976Z] [worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: BUSY"}}
+[debug] [2022-05-19T08:02:43.100Z] [runtime-status] [17704] Functions runtime initialized. {"cwd":"C:\\Collage files\\Mini project\\ecommerce-page\\functions","node_version":"16.14.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Functions runtime initialized. {\"cwd\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\",\"node_version\":\"16.14.0\"}"}}
+[debug] [2022-05-19T08:02:43.101Z] [runtime-status] [17704] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Disabled runtime features: undefined"}}
+[debug] [2022-05-19T08:02:43.104Z] [runtime-status] [17704] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T08:02:43.106Z] [runtime-status] [17704] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T08:02:43.106Z] [runtime-status] [17704] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-19T08:02:43.107Z] [runtime-status] [17704] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T08:02:43.162Z] [runtime-status] [17704] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-19T08:02:43.163Z] [runtime-status] [17704] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-19T08:02:43.164Z] [runtime-status] [17704] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T08:02:43.165Z] [runtime-status] [17704] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T08:02:43.165Z] [runtime-status] [17704] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.1","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.1\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T08:02:43.166Z] [runtime-status] [17704] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"C:\\Collage files\\Mini project\\ecommerce-page\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"C:\\\\Collage files\\\\Mini project\\\\ecommerce-page\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-19T08:02:43.385Z] [runtime-status] [17704] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-19T08:02:43.386Z] [runtime-status] [17704] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Running api in signature http"}}
+[debug] [2022-05-19T08:02:43.390Z] [runtime-status] [17704] Attempting to listen to socketPath: \\?\pipe\C:\Collage files\Mini project\ecommerce-page\functions\17704 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Collage files\\Mini project\\ecommerce-page\\functions\\17704"}}
+[debug] [2022-05-19T08:02:43.394Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-19T08:02:43.395Z] [functions] Got req.url=/ecommerce-page-3747e/us-central1/api/payments/create?total=150000, mapping to path=/payments/create?total=150000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/ecommerce-page-3747e/us-central1/api/payments/create?total=150000, mapping to path=/payments/create?total=150000"}}
+[debug] [2022-05-19T08:02:43.403Z] [runtime-status] [17704] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>>  150000 {"user":"Payment Request Recieved for this amount >>>  150000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  150000"}}
+[debug] [2022-05-19T08:02:43.416Z] [runtime-status] [17704] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-19T08:02:44.532Z] [worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: IDLE"}}
+[debug] [2022-05-19T08:02:44.532Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-19T08:03:30.188Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-19T08:03:30.189Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-19T08:03:30.190Z] Accepted request POST /ecommerce-page-3747e/us-central1/api/payments/create?total=150000 --> us-central1-api
+[debug] [2022-05-19T08:03:30.191Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-19T08:03:30.191Z] [worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: Assigning socketPath: \\?\pipe\C:\Collage files\Mini project\ecommerce-page\functions\17704 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: Assigning socketPath: \\\\?\\pipe\\C:\\Collage files\\Mini project\\ecommerce-page\\functions\\17704"}}
+[debug] [2022-05-19T08:03:30.192Z] [worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: BUSY"}}
+[debug] [2022-05-19T08:03:30.194Z] [runtime-status] [17704] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-19T08:03:30.198Z] [runtime-status] [17704] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Running api in signature http"}}
+[debug] [2022-05-19T08:03:30.200Z] [runtime-status] [17704] Attempting to listen to socketPath: \\?\pipe\C:\Collage files\Mini project\ecommerce-page\functions\17704 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Collage files\\Mini project\\ecommerce-page\\functions\\17704"}}
+[debug] [2022-05-19T08:03:30.206Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-19T08:03:30.208Z] [functions] Got req.url=/ecommerce-page-3747e/us-central1/api/payments/create?total=150000, mapping to path=/payments/create?total=150000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/ecommerce-page-3747e/us-central1/api/payments/create?total=150000, mapping to path=/payments/create?total=150000"}}
+[debug] [2022-05-19T08:03:30.214Z] [runtime-status] [17704] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>>  150000 {"user":"Payment Request Recieved for this amount >>>  150000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  150000"}}
+[debug] [2022-05-19T08:03:30.223Z] [runtime-status] [17704] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17704] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-19T08:03:30.671Z] [worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-4eeb3edf-84ae-42b9-ac77-d77d30a260d9]: IDLE"}}
+[debug] [2022-05-19T08:03:30.672Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-19T13:26:17.154Z] ----------------------------------------------------------------------
+[debug] [2022-05-19T13:26:17.156Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aryan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-05-19T13:26:17.156Z] CLI Version:   10.9.2
+[debug] [2022-05-19T13:26:17.156Z] Platform:      win32
+[debug] [2022-05-19T13:26:17.157Z] Node Version:  v16.14.0
+[debug] [2022-05-19T13:26:17.158Z] Time:          Thu May 19 2022 18:56:17 GMT+0530 (India Standard Time)
+[debug] [2022-05-19T13:26:17.158Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-19T13:26:17.238Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-19T13:26:17.239Z] > authorizing via signed-in user (tamangaryan879@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project ecommerce-page-3747e. This may result in unexpected behavior. 
+[debug] [2022-05-19T13:26:17.286Z] [hub] writing locator at C:\Users\Aryan\AppData\Local\Temp\hub-ecommerce-page-3747e.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-19T13:26:28.514Z] defaultcredentials: writing to file C:\Users\Aryan\AppData\Roaming\firebase\tamangaryan879_gmail_com_application_default_credentials.json
+[debug] [2022-05-19T13:26:28.516Z] Setting GAC to C:\Users\Aryan\AppData\Roaming\firebase\tamangaryan879_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Aryan\\AppData\\Roaming\\firebase\\tamangaryan879_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-19T13:26:28.519Z] > refreshing access token with scopes: []
+[debug] [2022-05-19T13:26:28.520Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-19T13:26:39.717Z] Failed to get Admin SDK config for ecommerce-page-3747e, falling back to cacheFailed to get Admin SDK for Firebase project ecommerce-page-3747e. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project ecommerce-page-3747e. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500},"status":500}
+[debug] [2022-05-19T13:26:39.732Z] > refreshing access token with scopes: []
+[debug] [2022-05-19T13:26:39.733Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-19T13:26:39.737Z] Failed to list hosting sites
+[debug] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-05-19T13:26:39.738Z] > refreshing access token with scopes: []
+[debug] [2022-05-19T13:26:39.738Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-19T13:26:39.742Z] fetchWebSetup error: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[warn] !  hosting: Using web app configuration from cache. 
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-05-19T13:26:39.793Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-19T13:26:39.793Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-19T13:26:39.793Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Aryan\\.cache\\firebase\\emulators\\ui-v1.7.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Aryan\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.7.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-19T13:26:39.967Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Collage files\Mini project\ecommerce-page\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Collage files\\Mini project\\ecommerce-page\\functions\" for Cloud Functions..."}}
+[debug] [2022-05-19T13:26:40.068Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2022-05-19T13:26:54.752Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-19T13:26:54.753Z] Building nodejs source
+[debug] [2022-05-19T13:26:54.753Z] Analyzing nodejs backend spec
+[debug] [2022-05-19T13:26:54.754Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-05-19T13:26:55.196Z] Serving at port 9005
+
+[debug] [2022-05-19T13:26:55.438Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-05-19T13:26:55.448Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/ecommerce-page-3747e/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/ecommerce-page-3747e/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-19T14:15:19.878Z] Received signal SIGHUP 1
